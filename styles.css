@@ -1,0 +1,90 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 226);
+}
+#popUpForm{
+    background-color:  rgb(240, 240, 226);
+    font-family: sans-serif;
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+
+}
+#cancel, #submit{
+    background-color: #549a83;
+    margin-top: 15px;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#heading_container{
+    background-color: #549a83;
+    height: 70px;
+    color: aliceblue;
+}
+h2{
+    padding: 20px;
+    margin-left: 40px;
+}
+#button{
+    border: none;
+    background-color: none;
+    background-color: rgba(133, 174, 150, 0.829);
+    top: 10px;
+    border-radius: 10px;
+    position: relative;
+    font-size: 18px;
+    left: 45%;
+
+    height: 50px;
+    width: 150px;
+}
+#button:hover{
+    
+    transform: scale(1.1);
+}
+#container{
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.myDiv{
+    background-color: #89bfad;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    box-shadow: 10px 5px  #549a83;
+    border: 3px solid rgb(240, 240, 226);
+    
+
+}
+.myDiv button{
+    display: block;
+    position: relative;
+    left: 5%;
+    height: 30px;
+    width: 150px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 10px;
+}
+.myDiv:hover{
+    transform: scale(1.1);
+}

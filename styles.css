@@ -88,3 +88,9 @@ h2{
 .myDiv:hover{
     transform: scale(1.1);
 }
+#cancel:hover{
+    transform: scale(0.9);
+}
+#submit:hover{
+    transform: scale(0.9);
+}

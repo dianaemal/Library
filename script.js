@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function(){
             
             const toggleRead = document.createElement("button");
             toggleRead.textContent = "Toggle read";
+            toggleRead.className = "toggleRead";
             newDiv.appendChild(toggleRead);
             toggleRead.addEventListener("click", () =>{
                 if(readStatus.textContent === "Read: read" )

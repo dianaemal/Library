@@ -94,3 +94,9 @@ h2{
 #submit:hover{
     transform: scale(0.9);
 }
+.delete:hover{
+    transform: scale(0.9);
+}
+.toggleRead:hover{
+    transform: scale(0.9);
+}
